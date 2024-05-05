@@ -18,7 +18,8 @@
   "homepage": "https://github.com/Vitalii-Marsh/frontend-project-44#readme",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "dependencies": {
     "@stylistic/eslint-plugin-js": "^1.7.2",
