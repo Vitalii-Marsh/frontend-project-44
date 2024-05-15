@@ -20,21 +20,7 @@ const playBrainGames = (questionAswer, preface) => {
         }
     }
         console.log(`Congratualtions ${nameUser}!`);
-      
-    
-
 
 };
 
-const randomNum = () => {
-    const randomNumber = Math.floor(Math.random() * 101);
-    return randomNumber;
-};
-
-const randomOperators = () => {
-    const operators = ['+', '-', '*'];
-    const numOperator = Math.floor(Math.random() * 3);
-    return operators[numOperator];
-  };
-
-export {playBrainGames, randomOperators, randomNum};
+export default playBrainGames;
