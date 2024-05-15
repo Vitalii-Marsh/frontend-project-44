@@ -1,4 +1,5 @@
-import { playBrainGames, randomOperators, randomNum } from '../index.js'
+import playBrainGames from '../index.js'
+import { randomNum, randomOperators } from '../randomNumbersAndOperators.js';
 
 const calc = (randomNum1, randomNum2, operator) => {
     switch(operator) {
