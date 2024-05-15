@@ -1,4 +1,5 @@
-import { playBrainGames, randomNum } from '../index.js'
+import playBrainGames from '../index.js'
+import { randomNum } from '../randomNumbersAndOperators.js'
 
 const gcd = (num1, num2) => {
     if (num1 == 0) 
