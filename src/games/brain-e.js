@@ -1,4 +1,5 @@
-import { playBrainGames, randomNum } from '../index.js'
+import playBrainGames from '../index.js'
+import { randomNum }  from '../randomNumbersAndOperators.js';
 
 const preface = 'Answer "yes" if the number is even, otherwise answer "no".';
 
