@@ -19,7 +19,7 @@ const playBrainGames = (questionAswer, preface) => {
             return;
         }
     }
-        console.log(`Congratualtions ${nameUser}!`);
+        console.log(`Congratulations ${nameUser}!`);
 
 };
 
