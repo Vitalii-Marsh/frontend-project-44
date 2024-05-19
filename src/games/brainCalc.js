@@ -2,13 +2,15 @@ import playBrainGames from '../index.js';
 import randomNum from '../randomNumbers.js';
 
 const calc = (randomNum1, randomNum2, operator) => {
-  switch(operator) {
-  case '+': 
-    return randomNum1 + randomNum2;
-  case '-': 
-    return randomNum1 - randomNum2;
-  case '*': 
-    return randomNum1 * randomNum2;
+  switch (operator) {
+    case '+':
+      return randomNum1 + randomNum2;
+    case '-':
+      return randomNum1 - randomNum2;
+    case '*':
+      return randomNum1 * randomNum2;
+    default:
+      return false;
   }
 };
 

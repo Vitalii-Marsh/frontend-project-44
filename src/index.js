@@ -20,7 +20,6 @@ const playBrainGames = (questionAswer, preface) => {
     }
   }
   console.log(`Congratulations, ${nameUser}!`);
-
 };
 
 export default playBrainGames;

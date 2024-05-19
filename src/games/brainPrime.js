@@ -1,4 +1,4 @@
-import playBrainGames from '../index.js'
+import playBrainGames from '../index.js';
 import randomNum from '../randomNumbers.js';
 
 const isPrime = (num) => {
@@ -8,7 +8,7 @@ const isPrime = (num) => {
   return num !== 1;
 };
 
-const preface = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+const preface = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const questionAswer = () => {
   const question = randomNum();
