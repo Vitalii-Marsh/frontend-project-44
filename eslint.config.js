@@ -1,14 +1,6 @@
-import stylisticJs from '@stylistic/eslint-plugin-js'
+import globals from "globals";
+
 
 export default [
-  {
-    plugins: {
-      '@stylistic/js': stylisticJs,
-    },
-    rules: {
-      '@stylistic/js/indent': ['error', 2],
-      "no-console": "off",
-      "import/extension": ["off", {"ignorePackages": true}]
-    },
-  },
+  {languageOptions: { globals: globals.browser }},
 ];
